@@ -48,7 +48,7 @@ requirements:
     - twisted
     - uncertainties
     - xhtml2pdf
-    - {{ pin_compatible('numpy <1.24') }} # Maintainer note: numpy<1.24 seems to still be required
+    - {{ pin_compatible('numpy', max_pin="x.x") }}  # Maintainer note: numpy<1.24 seems to still be required
     
 
 test:
