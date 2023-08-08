@@ -52,7 +52,7 @@ requirements:
     - twisted
     - uncertainties
     - xhtml2pdf
-    - {{ pin_compatible('numpy') }}
+    - {{ pin_compatible('numpy',max_pin='x.x') }}
 test:
   requires:
     - pip
