@@ -1,12 +1,12 @@
 {% set name = "sasview" %}
-{% set version = "6.0.0-beta-2" %}
+{% set version = "6.0.0b2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/SasView/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
+  url: https://github.com/SasView/{{ name }}/archive/refs/tags/v6.0.0-beta-2.tar.gz
 
   sha256: 3ee5a95c30d9858c1d32766e99a5e3504d219614fb6c5b2cc7c2561d6b924291
 
