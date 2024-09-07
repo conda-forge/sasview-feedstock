@@ -21,12 +21,13 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
+    - pyside6
     - {{ compiler('cxx') }}
   host:
     - python
     - pip
     - numpy ==1.26
-    - PySide6 ==6.4
+    - pyside6 ==6.4
     - scipy ==1.13
     - setuptools
   run:
