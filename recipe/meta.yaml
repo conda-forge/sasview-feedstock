@@ -50,7 +50,7 @@ requirements:
     - mako
     - matplotlib
     - numba
-    - periodictable >=1.7.0
+    - periodictable
     - pybind11
     - pylint
     - pyopengl
