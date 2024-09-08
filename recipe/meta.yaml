@@ -23,6 +23,7 @@ requirements:
     - numpy                                  # [build_platform != target_platform]
     - pyside6
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
