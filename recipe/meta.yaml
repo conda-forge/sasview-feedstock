@@ -49,7 +49,7 @@ requirements:
     - mako
     - matplotlib
     - numba
-    - periodictable
+    - periodictable >=1.7.0
     - pybind11
     - pylint
     - pyopengl
