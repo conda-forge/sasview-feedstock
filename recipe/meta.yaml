@@ -64,7 +64,7 @@ requirements:
     - twisted
     - uncertainties
     - unittest-xml-reporting
-    - xhtml2pdf
+    - xhtml2pdf >=0.2.16
     - {{ pin_compatible('numpy',max_pin='x.x') }}
     - {{ pin_compatible('scipy',max_pin='x.x') }}
     - {{ pin_compatible('PySide6',max_pin='x.x') }}
