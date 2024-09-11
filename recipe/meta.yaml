@@ -26,10 +26,10 @@ requirements:
   host:
     - python
     - pip
-    - numpy >=1.26,<2
-    - pyside6 >=6.4
+    - numpy <2
+    - PySide ==6.4
+    - scipy <1.14
     - requests
-    - scipy >=1.13
     - setuptools
   run:
     - python
