@@ -11,7 +11,7 @@ source:
   sha256: 66fd3362be5577b0eb6050b528dfe44cd415c7cf69702987fe80d3afe79d6d3c
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<36 or py>=312 or (osx and arm64)]
   entry_points:
     - sasview = sas.qtgui.MainWindow.MainWindow:run_sasview
@@ -23,6 +23,7 @@ requirements:
     - numpy                                  # [build_platform != target_platform]
     - pyside6
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
@@ -65,7 +66,6 @@ requirements:
     - uncertainties
     - unittest-xml-reporting
     - xhtml2pdf >=0.2.16
-    - {{ pin_compatible('numpy',max_pin='x.x') }}
     - {{ pin_compatible('scipy',max_pin='x.x') }}
     - {{ pin_compatible('PySide6',max_pin='x.x') }}
 test:
