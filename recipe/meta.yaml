@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<36 or (osx and arm64)]
+  skip: true  # [py<36 or py>=312 or (osx and arm64)]
   entry_points:
     - sasview = sas.qtgui.MainWindow.MainWindow:run_sasview
 
