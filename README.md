@@ -224,4 +224,5 @@ Feedstock Maintainers
 * [@rozyczko](https://github.com/rozyczko/)
 * [@stuartcampbell](https://github.com/stuartcampbell/)
 * [@wpotrzebowski](https://github.com/wpotrzebowski/)
+* [@backmari](https://github.com/backmari/)
 
