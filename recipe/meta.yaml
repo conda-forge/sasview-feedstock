@@ -1,5 +1,5 @@
 {% set name = "sasview" %}
-{% set version = "6.0.0" %}
+{% set version = "6.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/SasView/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 66fd3362be5577b0eb6050b528dfe44cd415c7cf69702987fe80d3afe79d6d3c
+  sha256: aef0ba60b5eda5c9b3d486250dc60407c549ae4a3cacacac6a80fa2cb0c37706
 
 build:
-  number: 2
+  number: 0
   skip: true  # [py<36 or py>=312 or (osx and arm64)]
   entry_points:
     - sasview = sas.qtgui.MainWindow.MainWindow:run_sasview
