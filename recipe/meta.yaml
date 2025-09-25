@@ -30,7 +30,7 @@ requirements:
     - pyside6 ==6.4
     - scipy <1.14
     - requests
-    - setuptools
+    - hatchling
   run:
     - python
     - bumps
