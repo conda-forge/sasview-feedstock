@@ -32,6 +32,7 @@ requirements:
     - requests
     - hatchling
     - hatch-requirements-txt
+    - hatch-vcs
   run:
     - python
     - bumps
